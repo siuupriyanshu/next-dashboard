@@ -21,8 +21,8 @@ export default async function CardWrapper({
 }: {
   numberOfInvoices: number;
   numberOfCustomers: number;
-  totalPaidInvoices: number;
-  totalPendingInvoices: number;
+  totalPaidInvoices: number | string;
+  totalPendingInvoices: number | string;
 }) {
 
   return (
