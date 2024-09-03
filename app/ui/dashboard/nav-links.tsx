@@ -21,17 +21,17 @@ export default function NavLinks() {
   const links: LinkItem[] = [
     {
       name: 'Home',
-      href: '/',
+      href: '/dashboard',
       icon: HomeIcon,
     },
     {
       name: 'Invoices',
-      href: '/invoices',
+      href: '/dashboard/invoices',
       icon: DocumentDuplicateIcon,
     },
     {
       name: 'Customers',
-      href: '/Customers',
+      href: '/dashboard/customers',
       icon: UserGroupIcon,
     },
   ];
